@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020.10.16
+  Features:
+    - Initial release
+    - Patches an issue caused by ShinyAngelGFX where Angel's casting machines do not output fluids to pipes
