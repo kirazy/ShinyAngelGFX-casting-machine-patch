@@ -17,7 +17,7 @@ for _, name in pairs(casting_machines) do
     -- Check that the casting machine exists
     if not casting_machine then goto continue end
 
-    -- Restore the fluid box using current configuration from Angel's github, retrieved 2020/10/16
+    -- Restore the fluid box using current configuration from Angel's github, retrieved 2020/11/06
     casting_machine.fluid_boxes = {
         {
             production_type = "input",
@@ -43,6 +43,7 @@ for _, name in pairs(casting_machines) do
         {
             production_type = "output",
             pipe_covers = pipecoverspictures(),
+            base_area = 10,
             base_level = 1,
             pipe_connections = {{position = {2, -1}}}
         }
